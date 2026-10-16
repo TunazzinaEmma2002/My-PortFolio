@@ -7,8 +7,8 @@ import bloodbeeShot from "@/assets/bloodbeeweb.png";
 // Edit everything about your portfolio here. Components only read from this file.
 
 export const site = {
-  name: "Tunazzina Rahman",
-  role: "full-stack developer",
+  name: "Tunazzina Rahman Emma",
+  role: "Full-stack developer MERN",
   email: "tunazzina1054@gmail.com",
   github: "https://github.com/TunazzinaEmma2002",
   linkedin: "https://www.linkedin.com/in/tunazzina-rahman-5b882a419/",
