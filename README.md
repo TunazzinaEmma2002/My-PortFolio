@@ -2,7 +2,7 @@
 
 My personal portfolio website. It shows my projects with live demos, my skills, and a downloadable resume, so recruiters can see what I build in one place.
 
-**Live site:** https://YOUR-SITE.vercel.app
+**Live site:** https://my-portfoliot.vercel.app/
 
 
 
