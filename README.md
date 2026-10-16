@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tunazzina Rahman | Developer Portfolio
 
-## Getting Started
+My personal portfolio website. It shows my projects with live demos, my skills, and a downloadable resume, so recruiters can see what I build in one place.
 
-First, run the development server:
+**Live site:** https://YOUR-SITE.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+
+## Features
+
+- Dark, responsive design that works on phones, tablets and desktops
+- Projects section with screenshots, tech stack, live demo and source code links
+- Skills grouped by frontend, backend, database, tools and creative work
+- About section with education and background
+- One-click resume download and a "Copy email" button
+- Mobile menu and smooth scrolling between sections
+- All content lives in one file (`src/data/site.ts`), so updating the site is easy
+
+## Tech stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- `next/font` (Bricolage Grotesque and DM Sans)
+- Deployed on Vercel
+
+## Project structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx      Root layout, fonts and metadata
+│   ├── page.tsx        Home page that loads every section
+│   └── globals.css     Tailwind theme and global styles
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── Projects.tsx
+│   ├── Skills.tsx
+│   ├── About.tsx
+│   ├── Contact.tsx
+│   └── Copyemail.tsx
+├── data/
+│   └── site.ts         Name, links, projects and skills
+└── assets/             Photo and project screenshots
+public/
+└── Tunazzina-Rahman-Resume.pdf
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run it locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+git clone https://github.com/TunazzinaEmma2002/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open http://localhost:3000 in your browser.
 
-## Learn More
+To check that the project builds without errors:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Email: tunazzina1054@gmail.com
+- LinkedIn: https://www.linkedin.com/in/tunazzina-rahman-5b882a419/
+- GitHub: https://github.com/TunazzinaEmma2002
